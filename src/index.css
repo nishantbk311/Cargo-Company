@@ -32,8 +32,3 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(245, 130, 31, 0.6);
 }
-
-html,
-body {
-  overflow-x: hidden;
-}

@@ -34,7 +34,7 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="min-h-screen bg-[#082a54] bg-radial from-[#0c396d] via-[#082a54] to-[#041a38] text-white flex flex-col justify-between selection:bg-amber-500 selection:text-white relative">
+      <div className="min-h-screen bg-[#082a54] bg-radial from-[#0c396d] via-[#082a54] to-[#041a38] text-white flex flex-col justify-between selection:bg-amber-500 selection:text-white relative overflow-x-clip">
         {/* Background Decorative Ambient Glows */}
         <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-blue-500/10 rounded-full blur-[120px] pointer-events-none" />
         <div className="absolute top-1/3 right-10 w-[400px] h-[400px] bg-amber-500/10 rounded-full blur-[100px] pointer-events-none" />
