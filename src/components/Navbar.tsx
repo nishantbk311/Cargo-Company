@@ -77,7 +77,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuote }) => {
 
                 {/* Services Dropdown */}
                 {servicesOpen && (
-                  <div className="absolute top-full left-0 mt-2 w-80 bg-white border border-slate-200/90 rounded-2xl p-3 shadow-2xl z-50 animate-in fade-in slide-in-from-top-2 duration-200">
+                  <div className="absolute top-[70%] left-0 mt-2 w-80 bg-white border border-slate-200/90 rounded-2xl p-3 shadow-2xl z-50 animate-in fade-in slide-in-from-top-2 duration-200">
                     <div className="space-y-1">
                       {servicesList.map((srv, idx) => (
                         <button
