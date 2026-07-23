@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1024" height="1024">
+  <!-- Rounded orange background -->
+  <rect width="512" height="512" rx="115" ry="115" fill="#ff7700" />
+  
+  <!-- White airplane icon -->
+  <g transform="rotate(-45 256 256) scale(0.85) translate(38 38)">
+    <path fill="#ffffff" d="M432,256c0-17.6-14.4-32-32-32h-80l-96-128H160l48,128H80l-32-48H16l32,80l-32,80h32l32-48h128l-48,128h64l96-128h80C417.6,288,432,273.6,432,256z" />
+  </g>
+</svg>
